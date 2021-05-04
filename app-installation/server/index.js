@@ -9,8 +9,10 @@ const session = require('express-session');
 
 
 //hashing des MP
-const bcrypt = require('bcrypt')
-const saltRounds =10
+const bcrypt = require('bcrypt');
+const saltRounds =10;
+
+const jwt = require('jsonwebtoken');
 
 const app = express();
 
