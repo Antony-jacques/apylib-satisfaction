@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 
 
-
+// jkguh
 //hashing des MP
 const bcrypt = require('bcrypt');
 const saltRounds =10;
